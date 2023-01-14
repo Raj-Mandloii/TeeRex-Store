@@ -1,6 +1,9 @@
 .product {
     flex: 7;
-    display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    border: 1px solid red;
 }

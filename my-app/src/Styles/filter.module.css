@@ -1,5 +1,16 @@
 .filter{
-    flex: 3;
-    /* border: 1px solid red; */
-
+    flex: 2;
+    padding: 0px 30px;
+    margin: 35px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 70vh;
+    
 }
+
+
+@media only screen and (max-width: 600px) {
+    .filter{
+        display: none;
+    }
+  }

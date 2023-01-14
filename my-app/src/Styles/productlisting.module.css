@@ -1,5 +1,45 @@
 .list {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon {
+  background-color: grey;
+  border-radius: 5px;
+  margin-left: 15px;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIcon > img {
+  padding: 3px;
+  color: white;
+  height: 18px;
+}
+
+.searchInput[type="text"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+
+.searchInput[type="text"]:focus {
+  border: none;
+  border-bottom: 1px solid black;
+}

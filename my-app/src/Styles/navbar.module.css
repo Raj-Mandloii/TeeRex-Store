@@ -31,3 +31,15 @@
     right: 4%;
     top: 0;
 }
+
+
+
+
+
+/* For smaller screen */
+
+@media only screen and (max-width: 600px) {
+    .productSection{
+        display: none;
+    }
+  }

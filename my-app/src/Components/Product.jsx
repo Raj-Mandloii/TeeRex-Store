@@ -6,7 +6,7 @@ const Product = ({ data }) => {
   return (
     <div className={styles.product}>
       {data.map((item) => (
-        <SingleProduct key={item.id} singledata={item}/>
+        <SingleProduct key={item.id} singledata={item} />
       ))}
     </div>
   );

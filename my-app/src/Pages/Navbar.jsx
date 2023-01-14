@@ -7,8 +7,7 @@ const Navbar = () => {
       <h1>TeeRex Store</h1>
 
       <div className={styles.cartSection}>
-        <h2>Products</h2>
-
+        <h2 className={styles.productSection}>Products</h2>
         <div >
           <img className={styles.cartImage} src={cartImage} alt="cart" />
           {/* Quantity of Cart */}
