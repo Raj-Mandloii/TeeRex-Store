@@ -10,6 +10,7 @@
 }
 
 .searchIcon {
+  width: 40px;
   background-color: grey;
   border-radius: 5px;
   margin-left: 15px;
@@ -26,16 +27,16 @@
 }
 
 .searchInput[type="text"] {
-  width: 40%;
+  width: 25%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 18px 10px;
   box-sizing: border-box;
   border: 1px solid #ccc;
   background-color: transparent;
   outline: none;
   border: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 1px solid black;
 }
 

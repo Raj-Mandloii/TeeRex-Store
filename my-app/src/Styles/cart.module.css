@@ -1,0 +1,22 @@
+.cart {
+    margin: 50px;
+}
+
+.totalPrice{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.hortizontalLine {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.emptyCart{
+    display: flex;
+    justify-content: center;
+    
+}
