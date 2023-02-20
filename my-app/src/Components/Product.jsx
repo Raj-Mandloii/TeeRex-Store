@@ -12,7 +12,7 @@ const Product = ({ data, filter }) => {
     // price: priceCategory,
     type: typeCategory,
   };
-  console.log(priceCategory);
+  // console.log(priceCategory.split("-"));
   const getValue = (value) =>
     typeof value === "string" ? value.toUpperCase() : value;
 
@@ -28,6 +28,16 @@ const Product = ({ data, filter }) => {
             return getValue(filter) === getValue(item[key]);
           });
         });
+      })
+      .filter(function (x) {
+        let [min,max] = [Math.min(...priceCategory.join("").replace("-","").split("-").map(Number)),Math.max(...priceCategory.join("").replace("-","").split("-").map(Number)),]
+        console.log(min,max)
+         priceCategory.length > 0 &&   console.log("JOIN",priceCategory.join("").replace("-","").split("-"))  //-250-450
+          
+           //priceCategory.length > 0 && console.log("SPLIT",priceCategory.join("").split("-").map(Number))
+        
+      //  priceCategory.length > 0 && console.log(priceCategory.join("").split("-").map(Number))
+        return x //x.Price >= 250 && x.Price <= 800;
       })
       .filter(
         // to filter based on the input field

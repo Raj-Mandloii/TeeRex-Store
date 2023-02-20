@@ -93,7 +93,7 @@ const Filter = () => {
         <input
           id="low"
           name="low"
-          value="0-250"
+          value="1-250"
           type="checkbox"
           onChange={(e) => handleChange(e, priceCategory,setPriceCategory)}
         />
@@ -103,7 +103,7 @@ const Filter = () => {
         <input
           id="medium"
           name="medium"
-          value="251-450"
+          value="-251-450"
           type="checkbox"
           onChange={(e) => handleChange(e, priceCategory,setPriceCategory)}
         />
@@ -113,7 +113,7 @@ const Filter = () => {
         <input
           id="high"
           name="high"
-          value="450"
+          value="-450"
           type="checkbox"
           onChange={(e) => handleChange(e, priceCategory,setPriceCategory)}
         />
